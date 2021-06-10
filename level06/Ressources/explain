@@ -1,0 +1,4 @@
+ls -la, on trouve un script php et son binaire.
+cat du script, on voit qu'ils utilisent preg_replace avec un regex /e qui te permet d'utiliser du code php dans les regex (tout ce que tu parse sera compris comme du code).
+on creer un script dans tmp avec [x {${system(sh)}}, on lance le binaire avec le script.
+on optient le password

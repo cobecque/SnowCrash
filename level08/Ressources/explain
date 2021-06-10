@@ -1,0 +1,4 @@
+ls -la, on touve un binaire et un file token avec aucun droit.
+objdump -s level08, le nom de file token est gerer en brut, on creer un lien symbolique
+avec ln -fs sur token et on envoie le lien dans le programme.
+on get le flag

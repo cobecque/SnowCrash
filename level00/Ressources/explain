@@ -1,0 +1,10 @@
+ls -la, aucun fichier disponible.
+Ls -lR /rofs/ | grep flag00  on trouve un fichier avec l'uid flag00 qui s'appelle john.
+find /rofs/ 2>/dev/null | grep john   resultat : /rofs/usr/sbin/john
+cat le fichier
+get cdiiddwpgswtgt
+test su flag00 avec ce password, mauvais password.
+On tente de rot le password.
+utilisation de http://theblob.org/rot.cgi
+ROT-11: nottoohardhere
+test su flag00, ca marche.

@@ -1,0 +1,6 @@
+ls -la, aucun fichier.
+ls -lR on trouve openarenaserver avec l'uid flag05 et level05 dans /var/mail.
+find d'openarenaserver, on trouve un dossier dans opt dans lequel on a les droits, le fichier dans mail lui nous permet de voir que openarenaserver est execute toutes les 2 minutes.
+on creer un sh (echo 'getflag > /tmp/theflag' > test.sh) et on attend 2 min, cat le fichier dans tmp et get le password.
+Pas de flag.
+

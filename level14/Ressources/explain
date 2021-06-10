@@ -1,0 +1,6 @@
+ls -la, on trouve pas de file.
+ls -lR, rien avec l'uid level14 ou le flag14.
+Il nous reste que getflag, disass getflag dans gdb.
+on trouve une foret de if, qui check l'uid puis jump sur le print.
+on break sur la premiere instruction. on jump sur la derniere adresse donner par la foret de if, on obtien le token du flag14
+

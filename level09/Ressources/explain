@@ -1,0 +1,5 @@
+ls -la, on trouve binaire level09 et file token.
+le binaire rot le parametre avec n+1 a chaque caractere.
+dans le objdump on voit un message "don't try to reverse".
+creer une fonction en c qui fait l'inverse.
+get flag09

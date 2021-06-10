@@ -1,0 +1,6 @@
+ls -la, on trouve un fichier pcap.
+On utilise wireshark sur le fichier.
+On trouve un packet avec la demande de password.
+Les packet d'apres renvoie un octet a chaque fois qui correspondent a une lettre du pasword.
+Attention au delete 0x7f, on reconstruit le mot de passe via les datas.
+on obtient ft_waNDReL0L

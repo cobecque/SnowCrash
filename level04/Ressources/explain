@@ -1,0 +1,4 @@
+ls -la, on trouve un script perl.
+cat du script, on voit qu'ils utilsent echo sur le premier parametre et qu'ils utilisent le port 4747.
+On fait une requette http dans laquelle on passe getflag en parametre de x.
+Encore une fois pas de flag

@@ -1,0 +1,7 @@
+ls -la, on trouve un binaire.
+objudmp -s, on voit la fonction access.
+on disass le binaire, on voit que la commande access est suivit de open.
+On va creer un script pour force l'acces et open le fichier token.
+on ouvre http://localhost:6969 sur le navigateur.
+on utilise script.sh qui va faire des liens symbolique entre un fichier que l'on creer dans tmp puis un liens symbolique sur token avec le meme nom, on envoie le lien symbolique au binaire.
+on obtien le token sur le terminal

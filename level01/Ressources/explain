@@ -1,0 +1,9 @@
+ls -la toujours aucun fichier
+ls -lR pas de resultat sur flag01 et level01
+test de cat /etc/passwd
+on trouve flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
+test le password, marche pas
+hash password, on utilise john the ripper (logiciel de cassage de mot de passe) avec l'option show.
+get abcdefg.
+
+

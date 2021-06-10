@@ -1,0 +1,7 @@
+ls -la, on trouve un binaire.
+objdump -s binaire, on voit qu'ils utilisent system, dans le rodata on voit qu'ils utilisent echo.
+on creer un fichier echo dans tmp qui contient /bin/getflag pour permettre de run getflag a la place de echo.
+chmod +x sur /tmp/echo.
+et on export le path, PATH=/tmp:$PATH.
+password directement du level suivant, pas de flag ici.
+

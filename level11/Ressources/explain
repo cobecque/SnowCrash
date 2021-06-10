@@ -1,0 +1,4 @@
+ls -la, on trouve un script lua.
+cat le script, on est sur le port 5151. On trouve une utilisation de popen non proteger, donc on peut injecter directement une fonction a la place du password.
+on utilise nc localhost 5151, on tente de mettre `getflag` > /tmp/flag.
+on cat le fichier, on trouve le token.
